@@ -6,9 +6,12 @@ body {
     padding: 0;
 }
 
+.header, .quote, .call-to-action, .footer {
+    padding: 0 25vw;
+}
+
 .header {
     background-color: #1f2937;
-    padding: 1vh 25vw;
 }
 
 .navbar {
@@ -76,4 +79,41 @@ button {
 
 button:hover {
     background-color: #3070d8;
+}
+
+.info {
+    text-align: center;
+    padding: 5vh 25vw;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.figures {
+    display: flex;
+    gap: 25px;
+    padding: 8vh 0;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.image-caption {
+    color: #1f2937;
 }
