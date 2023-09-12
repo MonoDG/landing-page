@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.header, .call-to-action, .footer {
+.header, .footer {
     padding: 0 20vw;
 }
 
@@ -136,4 +136,34 @@ button:hover {
     font-weight: 900;
     text-align: right;
     margin-top: 0;
+}
+
+.call-to-action {
+    padding: 12vh 15vw;
+}
+
+.banner {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 10vw;
+}
+
+.banner-primary-text {
+    font-size: 24px;
+    font-weight: 900;
+    color: #e5e7eb;
+    margin-bottom: 0;
+}
+
+.banner-secondary-text {
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.banner-button {
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
 }
