@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.header, .quote, .call-to-action, .footer {
+.header, .call-to-action, .footer {
     padding: 0 20vw;
 }
 
@@ -116,4 +116,24 @@ button:hover {
 
 .image-caption {
     color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 15vh 25vw;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 0;
 }
